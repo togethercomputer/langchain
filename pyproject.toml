@@ -55,7 +55,7 @@ pytest-watcher = "^0.2.6"
 
 [tool.poetry.group.lint.dependencies]
 flake8-docstrings = "^1.6.0"
-black = "^22.10.0"
+black = ">=22.10,<25.0"
 isort = "^5.10.1"
 flake8 = "^6.0.0"
 types-toml = "^0.10.8.1"
